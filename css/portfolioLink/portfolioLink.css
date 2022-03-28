@@ -1,0 +1,125 @@
+/* ====== Estúdio ======= */
+
+/* Modal */
+
+.dialog-equipamento-foto{
+    height: 100%;
+    text-align: center;
+  }
+  
+  .estudio {
+    background: #ffffff;
+    padding: 50px 0;
+  }
+  
+  .estudio-list {
+    text-align: center;
+    font-size: 0;
+  }
+  
+  .estudio-list li {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    background: white;
+    width: 100%;
+    max-width: 322px;
+    display: inline-block;
+    border: 1px solid #b4b2b2;
+    border-top: 0;
+  }
+  
+  .estudio-foto {
+    position: relative;
+    height: 240px;
+    overflow: hidden;
+  }
+  
+  .estudio-foto img {
+    position: relative;
+    top: 80%;
+    transform: translateY(-80%);
+    -webkit-transform: translateY(-80%);
+  }
+  
+  .estudio-foto-hover {
+    z-index: 1;
+    position: absolute;
+    background: rgba(227, 211, 198, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    transform: scale(0.4) rotate(100deg);
+    -webkit-transform: scale(0.4) rotate(100deg);
+  }
+  
+  .estudio-foto-hover div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+  }
+  
+  .estudio-foto-hover span {
+    color: white;
+    font-size: 1.125rem;
+    position: relative;
+  }
+  
+  .estudio-foto-hover span::before,
+  .estudio-foto-hover span::after {
+    content: "";
+    background: white;
+    position: absolute;
+    width: 40px;
+    height: 1px;
+    top: 50%;
+  }
+  
+  .estudio-foto-hover span::after {
+    right: -50px;
+  }
+  
+  .estudio-foto-hover span::before {
+    left: -50px;
+  }
+  
+  .estudio-foto-hover a {
+    color: white;
+    font-size: 0.875rem;
+    background: black;
+    padding: 3px 10px;
+    position: relative;
+    top: 5px;
+  }
+  
+  .estudio-foto-hover a:hover {
+    background: #000000;
+  }
+
+  @media (min-width: 667px) {
+    .estudio-list li {
+      width: 50%;
+    }
+  
+    .estudio-list li:nth-of-type(2n+0) {
+      border-left: 0;
+    }
+  }
+
+  @media (min-width: 960px) {
+    .estudio-list li:nth-of-type(2n+0),
+    .estudio-list li {
+      width: 25%;
+    }
+  
+    .estudio-list li:not(:first-child) {
+      border-left: 0;
+    }
+  }

@@ -1,0 +1,88 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #ffffff;
+}
+
+
+meter {
+	display: none;
+}
+
+main{
+    width: 100%;
+}
+
+
+h1{
+	font-weight: 400;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 40px;
+}
+
+
+.portfolio1 {
+	margin: 10px 10px;
+}
+
+.portfolio1 img {
+	transition: 0.4s;
+	padding: 1px;
+	width: 265px;
+		   
+}
+
+.portfolio1 img:hover {
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+
+.ensaios-portfolio{
+	margin-top: 100px;
+}
+	
+.header-logo{
+	margin-top: -40px;
+}
+
+.header{
+	margin-top: -100px;
+}
+
+.header-nav{
+	margin-top: -80px;
+}
+@media (min-width: 250px) {
+	.portfolio1 img {
+		
+		width: 100%;
+			   
+	}
+}
+
+@media (min-width: 767px) {
+	.portfolio1 img {
+		
+		width: 370px;
+			   
+	}
+}
+
+@media (min-width: 1023px) {
+	.portfolio1 img {
+		
+		width: 325px;
+			   
+	}
+}
+
+@media (min-width: 1500px) {
+	.portfolio1 img {
+		
+		width: 265px;
+			   
+	}
+}
+
+
+

@@ -1,0 +1,10 @@
+.content__contato{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contato__form{
+    width: 50%;
+}
+

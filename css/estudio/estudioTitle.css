@@ -1,0 +1,29 @@
+/* ==========  ESTÚDIO TITLE======== */
+.estudio-title {
+    padding: 10px 0;
+    position: relative;
+    overflow: hidden;
+    transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+  }
+  
+  .estudio-title::before {
+    position: absolute;
+    content: "";
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    left: 0;
+    transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+  }
+  
+  .estudio-title strong {
+    font-size: 1.125rem;
+    font-weight: 400;
+    position: relative;
+    color: rgb(0, 0, 0);
+  }
+
+  
