@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700" rel="stylesheet">
 
   <!-- FONT ICON -->
+  <script src="https://kit.fontawesome.com/ee72cfd0cf.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="../css/fontawesome.all.min.css">
 
   <!-- CAROUSEL PLUGIN -->
@@ -21,6 +22,7 @@
   <link rel="stylesheet" href="../css/style.carousel.css">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/toggle.css">
+  <link rel="stylesheet" href="../css/backTop/backTop.css">
   <link rel="stylesheet" href="../css/footer/footer.css">
   
   <!-- ESTILOS  Galeria-->
@@ -34,7 +36,7 @@
 <body>
   
   <!-- Start - HEADER --> 
-  <header class="row header">
+  <header class="row header" id="topo">
     <h1 class="font-zero">Flávia luna - Fotografia</h1>
     <div class="content">
       <div class="header-logo">
@@ -82,7 +84,14 @@
         <p class="tagline">Conheça nossos ensaios externo.</p>          
       </div>
     </header>
-
+      <!-- voltar ao topo -->
+        <div data-scroll="suave" data-anima="scroll">
+          <a href="#topo">
+            <div class="topo">
+              <i class="fa-solid fa-angles-up"></i>
+              <p>Voltar ao topo</p>
+            </div>
+          </a> 
 
       <div class="portfolio1">
           <a href="../images/gestantes/Externo/CAPA.jpg" data-lightbox="myportfolio" data-title="Externo"><img src="../images/gestantes/Externo/200x200/CAPA.png" alt=""></a>
@@ -131,6 +140,7 @@
   <script src='../js/jquery.min.js'></script>
   <script src='../js/owl.carousel.min.js'></script>+
   <script src="../js/script-p.js"></script>
+  <script src="../js/backTop/backTop.js"></script>
 </body>
 
 </html>

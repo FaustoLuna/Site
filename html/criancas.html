@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700" rel="stylesheet">
 
   <!-- FONT ICON -->
+  <script src="https://kit.fontawesome.com/ee72cfd0cf.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="../css/fontawesome.all.min.css">
 
   <!-- CAROUSEL PLUGIN -->
@@ -21,6 +22,7 @@
   <link rel="stylesheet" href="../css/style.carousel.css">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/toggle.css">
+  <link rel="stylesheet" href="../css/backTop/backTop.css">
   <link rel="stylesheet" href="../css/footer/footer.css">
   
   
@@ -35,7 +37,7 @@
 <body>
   
   <!-- Start - HEADER --> 
-  <header class="row header">
+  <header class="row header" id="topo">
     <h1 class="font-zero">Flávia luna - Fotografia</h1>
     <div class="content">
       <div class="header-logo">
@@ -85,7 +87,14 @@
             <p class="tagline">Conheça nossos ensaios crianças.</p>          
           </div>
         </header>
-                    
+           <!-- voltar ao topo -->
+          <div data-scroll="suave" data-anima="scroll">
+            <a href="#topo">
+              <div class="topo">
+                <i class="fa-solid fa-angles-up"></i>
+                <p>Voltar ao topo</p>
+              </div>
+            </a>          
       <div class="portfolio1">
           <a href="../images/infantil/Criancas/capa.jpg" data-lightbox="myportfolio" data-title="Crianças"><img src="../images/infantil/Criancas/200x200/capa.jpg" alt=""></a>
           <a href="../images/infantil/Criancas/crianca01.jpg" data-lightbox="myportfolio" data-title="Crianças"><img src="../images/infantil/Criancas/200x200/crianca01.jpg" alt=""></a>
@@ -133,6 +142,7 @@
   <script src='../js/jquery.min.js'></script>
   <script src='../js/owl.carousel.min.js'></script>+
   <script src="../js/script-p.js"></script>
+  <script src="../js/backTop/backTop.js"></script>
 </body>
 
 </html>
