@@ -1,36 +1,31 @@
-.icone_backtop{
+.topo{  
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.80);
     font-size: 2.5rem;
     border-radius:  50px 50px 50px 50px;
-
-
-    display: block;
+    display: none;
     margin-left: 150px;
     margin-top: 400px;
     width: 100px;
     height: 100px;
     position: fixed;
-    
-
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     z-index: 1;
 }
 
-.icone_backtop p{
-    margin-top: 10px;
-    font-size: 12px;
+.show_button .topo{
+    display: flex;
 }
 
-
-.icone_backtop:hover{
+.topo:hover{
     cursor: pointer;
     transform: scale(1.3);
     transition: 200ms ease;
     -webkit-transition: 200ms ease;
 }
 
+.topo p {
+    font-size: 10px;
+}

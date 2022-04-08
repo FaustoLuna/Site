@@ -36,7 +36,7 @@
 <body>
   
   <!-- Start - HEADER --> 
-  <header class="row header">
+  <header class="row header" id="topo">
     <h1 class="font-zero">Flávia luna - Fotografia</h1>
     <div class="content">
       <div class="header-logo">
@@ -85,11 +85,20 @@
     </header>
 
       <div class="portfolio1">
-        <div class="icone_backtop">
-          <i class="fa-solid fa-angles-up"></i>
-          <p>Voltar ao topo</p>
-          
+
+
+        <div data-scroll="suave" data-anima="scroll">
+          <a href="#topo">
+            <div class="topo">
+              <i class="fa-solid fa-angles-up"></i>
+              <p>Voltar ao topo</p>
+            </div>
+          </a> 
+
         </div>
+
+
+
 
           <a href="../images/newborn/CAPA.jpg" data-lightbox="myportfolio" data-title="NewBorn"><img src="../images/newborn/200x200/CAPA.jpg" alt=""></a>
           <a href="../images/newborn/nb01.jpg" data-lightbox="myportfolio" data-title="NewBorn"><img src="../images/newborn/200x200/nb01.jpg" alt=""></a>
@@ -170,6 +179,7 @@
   <script src='../js/jquery.min.js'></script>
   <script src='../js/owl.carousel.min.js'></script>+
   <script src="../js/script-p.js"></script>
+  <script src="../js/backTop/backTop.js"></script>
 </body>
 
 </html>
