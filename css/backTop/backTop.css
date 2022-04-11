@@ -1,4 +1,4 @@
-.topo{  
+.top{  
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.80);
     font-size: 2.5rem;
@@ -15,17 +15,17 @@
     z-index: 1;
 }
 
-.show_button .topo{
+.show_button .top{
     display: flex;
 }
 
-.topo:hover{
+.top:hover{
     cursor: pointer;
     transform: scale(1.3);
     transition: 200ms ease;
     -webkit-transition: 200ms ease;
 }
 
-.topo p {
+.top p {
     font-size: 10px;
 }
